@@ -94,7 +94,7 @@ REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1 week')
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'sewxiy') # owner username without @
 
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002259872144')) #Log channel id ( make sure bot is admin )
-DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002067012611'))
+DUMP_CHNL = int(environ.get('DUMP_CHNL', '-1002396682589'))
 
 # Verify
 VERIFY = bool(environ.get('VERIFY', True)) # Verification On ( True ) / Off ( False )
@@ -103,7 +103,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://t.me/How_to_Download_7x/26') #
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shareus.io')
 SHORTLINK_API = environ.get('SHORTLINK_API', '1Jh0re6olVUHnr3eEyFG7NZX7RF3')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
